@@ -1,3 +1,7 @@
+# Redactor.rb gets some text passed by the user and what he's want to redact
+# if what he wanna redact is in the text he passed the word will be substi- 
+# tuted by "REDACTED"
+
 puts "Some bullshit"
 text = gets.chomp
 
