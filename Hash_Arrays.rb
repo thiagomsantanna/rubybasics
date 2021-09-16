@@ -30,7 +30,7 @@ pessoa = Hash.new #{}
 pessoa["Name"] = "Thiago"
 pessoa["Last_name"] = "Mundici"
 
-puts "#{pessoa["name"]} #{pessoa["last name"]}"
+puts "#{pessoa["Name"]} #{pessoa["Last_name"]}"
 
 thiagao.each do |data, info|
     if info.kind_of?(Array)
@@ -42,8 +42,12 @@ thiagao.each do |data, info|
     end    
 end
 
+thiagao.each do |key, value|
+	puts thiagao.fetch key # Will print only the values of each key on Hash
+end
+
 lunch_order = {
-  "Sushiman" => "sushi",
+  "Sushiman": "sushi", ## Hashs could also be declared like a: b
   "Gobs" => "hamburger",
   "Marcela" => "sandubão",
   "Regis" => "pika",
