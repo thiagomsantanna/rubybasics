@@ -18,3 +18,5 @@ frequencies.reverse!
 frequencies.each do |word, count|
   puts "#{word} #{count}"
 end
+
+#teste commit emojis
