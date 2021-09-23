@@ -1,4 +1,4 @@
-def DefaultValueParameter(var = "SalveSalve")
+def DefaultValueParameter(var = "SalveSalve") # var = something sets a value to the parameter in case that came nil or undefined 
     puts "#{var} <-- sério?"
 end
 
