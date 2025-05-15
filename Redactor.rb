@@ -2,7 +2,7 @@
 # if what he wanna redact is in the text he passed the word will be substi- 
 # tuted by "REDACTED"
 
-puts "Some bullshit"
+puts "Type some text:"
 text = gets.chomp
 
 puts "Redact:"

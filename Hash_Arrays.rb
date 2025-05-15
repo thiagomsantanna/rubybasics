@@ -1,6 +1,6 @@
 int_array = [1, 2, 3, 4]
 #puts int_array
-string_array = ["sexo", "isso que é foda", "quisifoda"]
+string_array = ["a", "b", "c"]
 #puts string_array
 array = [true, false, true]
 #puts array
@@ -10,7 +10,7 @@ arry.each do |i|
     puts "#{i} "
 end
 
-s = [["dale", "daleee"], ["puta", "que"], ["pariu", "!!!"]]
+s = [["aa", "aa"], ["bb", "bb"], ["cc", "cc"]]
 
 s.each do |sub_array|
   sub_array.each do |slangs|
@@ -20,15 +20,15 @@ end
 
 #### Hash
 thiagao = {
-    "Name" => "Thiago",
-    "Last_name" => "Mundici",
-    "Age" => 18,
-    "Hobbys" => ["sexo", "vaginas", "amar minha esposa"]
+    "name" => "Thiago",
+    "last_name" => "Mundici",
+    "age" => 18,
+    "hobbies" => ["skate", "bike", "motorcycles"]
 }
 
 pessoa = Hash.new #{}
-pessoa["Name"] = "Thiago"
-pessoa["Last_name"] = "Mundici"
+pessoa["name"] = "Thiago"
+pessoa["last_name"] = "Mundici"
 
 puts "#{pessoa["Name"]} #{pessoa["Last_name"]}"
 
@@ -47,11 +47,11 @@ thiagao.each do |key, value|
 end
 
 lunch_order = {
-  "Sushiman": "sushi", ## Hashs could also be declared like a: b
-  "Gobs" => "hamburger",
-  "Marcela" => "sandubão",
-  "Regis" => "pika",
-  "Pedrao" => "comida de homem"
+  "Jonas": "sushi", ## Hashs could also be declared like a: b
+  "Gabrielly" => "burguer",
+  "Marcela" => "sandwich",
+  "Regis" => "steak",
+  "Pedrao" => "french fries"
 }
 
 lunch_order.each_with_index do |(client, food), index|

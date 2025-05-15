@@ -22,7 +22,7 @@ end
 
 ###########################################################
 ### Loop 
-### loop { puts "rawr rawr!"} - infinito
+### loop { puts "foo bar!"} - infinito
 i = 0 
 loop do
     i += 1

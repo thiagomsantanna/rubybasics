@@ -1,7 +1,7 @@
 # Histogram.rb gets some text from the user and just counts and enumerate by
 # how much they appear on all the text imputed
 
-puts "Some bullshit"
+puts "Type some text:"
 text = gets.chomp
 
 words = text.split 
@@ -18,5 +18,3 @@ frequencies.reverse!
 frequencies.each do |word, count|
   puts "#{word} #{count}"
 end
-
-#teste commit emojis
